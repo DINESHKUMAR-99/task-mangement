@@ -19,7 +19,6 @@ const Profile = () => {
       {/* Profile Content */}
       <div className="bg-white p-6 rounded-lg shadow-md text-center">
         <h1 className="text-3xl font-bold mb-4">Welcome, {userName}!</h1>
-        <p className="text-gray-700 mb-6">This is your profile page.</p>
         <button
           onClick={()=>navigate('/create-task')}
           className="text-white bg-red-500 hover:bg-red-600 px-4 py-2 rounded"
